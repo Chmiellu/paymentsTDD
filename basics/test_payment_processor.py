@@ -24,7 +24,7 @@ class TestPaymentProcessor(unittest.TestCase):
     def test_process_payment_insufficient_funds(self):
 
         user_id = "userXD"
-        amount = 100.0
+        amount = 1000.0
         transaction_id = "tranXD"
 
         self.gateway.charge.return_value = TransactionResult(
