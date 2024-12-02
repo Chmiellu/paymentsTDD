@@ -4,7 +4,7 @@ Module for testing the PaymentProcessor class.
 
 import unittest
 from unittest.mock import MagicMock
-from basics.tests.payment_processor import PaymentProcessor, PaymentGateway, TransactionResult
+from payment_processor import PaymentProcessor, PaymentGateway, TransactionResult
 
 
 class TestPaymentProcessor(unittest.TestCase):
